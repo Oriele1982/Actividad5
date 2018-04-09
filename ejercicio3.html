@@ -1,0 +1,55 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 3</title>
+	<style>
+		@media (max-width: 400) {
+			body{
+				background: green;
+		}
+		@media (max-width: 600px) {
+			body{
+				background: yellow
+		}
+		@media (max-width: 800px) {
+			body{
+				background: red;
+		}
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
+
+Hacer los arreglos necesarios en el código, para que funcionen los media queries y se desplieguen los colores del semáforo en cada breakpoint. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 3</title>
+	<style>
+		@media (max-width: 400px) {
+			body{
+				background: green;
+			}	
+		}
+		@media (min-width: 401px) and (max-width: 600px) {
+			body{
+				background: yellow;
+			}	
+		}
+		@media (min-width: 601px) {
+			body{
+				background: red;
+			}	
+		}
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
